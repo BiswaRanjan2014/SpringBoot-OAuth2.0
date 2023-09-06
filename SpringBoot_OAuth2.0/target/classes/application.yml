@@ -1,0 +1,21 @@
+#server:
+#  port: 9098
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: Pintu
+#    url: jdbc:mysql://localhost:3306/dakr
+#    username: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#   show-sql: true
+    
+    spring:
+     security:
+      oauth2:
+       client:
+        registration:
+           github:
+            clientId: 4505fe375b96e3c44817
+            clientSecret: 1491ed0c8ca0e358cb94376e7a5e37cae193de2f
